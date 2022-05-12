@@ -33,6 +33,11 @@ namespace BlockTime_Tracking.Repositories
 
         }
 
+        public void CadastrarEmpresa()
+        {
+
+        }
+
         public void AdcionarEmpresas()
         {
             ZabbixRepository zabbix = new();

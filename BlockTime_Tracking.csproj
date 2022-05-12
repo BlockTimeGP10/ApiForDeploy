@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="7.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.16" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.16" />
@@ -13,9 +14,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.Owin.Host.SystemWeb" Version="4.2.1" />
-    <PackageReference Include="Microsoft.Owin.Security.Cookies" Version="4.2.1" />
-    <PackageReference Include="Microsoft.Owin.Security.OpenIdConnect" Version="4.2.1" />
     <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.13" />
     <PackageReference Include="RestSharp" Version="107.3.0" />
     <PackageReference Include="RestSharp.Newtonsoft.Json.Extensions" Version="1.0.4" />

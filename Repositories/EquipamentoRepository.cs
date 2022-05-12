@@ -77,7 +77,11 @@ namespace BlockTime_Tracking.Repositories
             var empresaEquips = empresaMtds.BuscarPorId(idEmpresa);
             var  resposta = zabbix.GetHostGroupByName(empresaEquips.NomeEmpresa);
 
-            
+            foreach (ZabbixApi.Entities.Host item in resposta.hosts)
+            {
+                var equipamento = BuscarPorNome(item.name);
+                equipamentos.Add(equipamento);
+            }
 
             return equipamentos;
         }

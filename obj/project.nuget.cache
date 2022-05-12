@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "/oGwgpMvrrBoWLW9RGtmNL7QitpG6l0wgnOLcHyO6OmYCJHf5iJqvE8DnCvXPcvJ8tkNlSejLnsY2rBDYXpncg==",
+  "dgSpecHash": "8b1sbBn/ZBCLqayURGnBONpre0/BlLxeTgP0moVW3bKpZSeddaj2u0JG03A5qrtawpM7FQ2pLV60wtw4+RoL5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\53976212857.INFOSCS\\Desktop\\ReactJs_Block\\API\\BlockTime_Api\\BlockTime_Tracking\\BlockTime_Tracking.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.0\\amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512",
+    "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",
+    "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\7.1.0\\amazon.lambda.aspnetcoreserver.7.1.0.nupkg.sha512",
+    "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.0\\amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
+    "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.2.0\\amazon.lambda.serialization.systemtextjson.2.2.0.nupkg.sha512",
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -50,9 +56,6 @@
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\microsoft.owin.host.systemweb\\4.2.1\\microsoft.owin.host.systemweb.4.2.1.nupkg.sha512",
-    "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\microsoft.owin.security.cookies\\4.2.1\\microsoft.owin.security.cookies.4.2.1.nupkg.sha512",
-    "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\microsoft.owin.security.openidconnect\\4.2.1\\microsoft.owin.security.openidconnect.4.2.1.nupkg.sha512",
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
@@ -168,36 +171,5 @@
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\53976212857.INFOSCS\\.nuget\\packages\\zabbix\\4.0.7\\zabbix.4.0.7.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Owin.Host.SystemWeb 4.2.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Microsoft.Owin.Host.SystemWeb",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Owin.Security.Cookies 4.2.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Microsoft.Owin.Security.Cookies",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Owin.Security.OpenIdConnect 4.2.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Microsoft.Owin.Security.OpenIdConnect",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }
